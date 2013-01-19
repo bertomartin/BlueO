@@ -1,9 +1,9 @@
-BLueO
+BlueO
 =============
 
 BlueO is one of my first experiments with this wonderful CSS framework Inuit.css made by Harry Roberts.
 
-BLueO.scss
+BlueO.scss
 =============
 
 I have custom styled some of the html elements like : 
