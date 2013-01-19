@@ -4536,3 +4536,37 @@ ul li {
 .btn:focus, .btn:visited {
   box-shadow: 0 0 3px #1b7cb5;
 }
+
+/* line 80, css/style.scss */
+.table--bordered th {
+  text-decoration: underline;
+  font-weight: 500;
+  background: #0d7da7;
+}
+/* line 85, css/style.scss */
+.table--bordered th, .table--bordered td {
+  border: 2px solid #333;
+}
+/* line 87, css/style.scss */
+.table--bordered th:empty, .table--bordered td:empty {
+  border: none;
+}
+/* line 92, css/style.scss */
+.table--bordered thead tr:last-child th {
+  border-bottom-width: 2px;
+}
+/* line 96, css/style.scss */
+.table--bordered tbody tr th:last-of-type {
+  border-right-width: 2px;
+}
+
+/* line 102, css/style.scss */
+.table--striped tbody tr:nth-of-type(odd) {
+  background: #8ad9f6;
+}
+
+/* line 107, css/style.scss */
+.table--data {
+  font-family: Ubuntu,"Helvetica","Verdana";
+  font-size: 12.8px;
+}

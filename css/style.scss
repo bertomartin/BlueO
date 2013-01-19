@@ -76,4 +76,35 @@ ul {
 	}
 }
 
+.table--bordered{
+	th {
+		text-decoration:underline;
+		font-weight:500;
+		background:darken(#11a1d6,10%)
+	}
+    th, td{
+        border:2px solid #333;
+        &:empty {
+            border:none;
+        }
+    }
 
+    thead tr:last-child th{
+        border-bottom-width:2px;
+    }
+
+    tbody tr th:last-of-type{
+        border-right-width:2px;
+    }
+}
+
+.table--striped{
+    tbody tr:nth-of-type(odd){
+        background:lighten(#11a1d6,30%);
+    }
+}
+
+.table--data{
+    font-family: Ubuntu,"Helvetica","Verdana";
+	font-size:$base-font-size*0.8;
+}
