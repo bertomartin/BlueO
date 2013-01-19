@@ -16,8 +16,64 @@
  */
 @import "vars";
 @import "inuit.css/inuit";
+@import url(http://fonts.googleapis.com/css?family=Ubuntu:300);
+
+body {
+	width:1280px;
+	margin:0 auto;
+	font-family:Ubuntu,"Helvetica","sans-serif";
+	font-weight:300;
+}
+
+a {
+	color:#11a1d6;
+	&:hover {
+		color:#1b7cb5;
+		text-decoration:none;
+	}
+	&:focus {
+		color:#1b7cb5;
+		text-decoration:none;
+	}
+	&:visited {
+		color:#1b7cb5;
+		text-decoration:none;
+	}
+}
+
+h1 ,h2, h3, h4, h5, h6 {
+	font-weight:500;
+	color:lighten(black, 20%);
+}
+
+blockquote {
+	padding:5px 15px;
+	border-left:5px solid lighten(black,15%);
+	background:lighten(#11a1d6,10%);
+	font-size:$base-font-size*1.2;
+}
+
+ul {
+	li {
+		font-size:$base-font-size*1.1;
+	}
+}
+
+.btn {
+	background:#11a1d6;
+	padding:5px 8px;
+	color:white;
+	border-radius:5px;
+	&:hover {
+		color:white;
+		background:#1b7cb5;
+		-moz-transition:0.1s all 0.1s;
+		-o-transition:0.1s all 0.1s;
+		-webkit-transition:0.1s all 0.1s;
+	}
+	&:focus, &:visited {
+		box-shadow:0 0 3px #1b7cb5;
+	}
+}
 
 
-/**
- * She’s all yours, cap’n... Begin importing your stuff here.
- */
